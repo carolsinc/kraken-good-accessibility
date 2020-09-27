@@ -29,7 +29,7 @@ header {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
-  padding: 1rem;
+
   background-color: #1e7c74;
 }
 
@@ -37,6 +37,7 @@ header strong,
 header p {
   margin: 0;
   font-weight: normal;
+  padding: 1rem;
 }
 
 .by {
@@ -47,7 +48,7 @@ article div {
   padding: 1rem;
 }
 
-article header {
+header article {
   display: flex;
   justify-content: space-between;
   align-items: center;
